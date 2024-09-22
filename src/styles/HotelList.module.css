@@ -1,0 +1,29 @@
+.hotelList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.hotelCard {
+  width: 300px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.buttonAddNewHotel {
+  margin-bottom: -150px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.optionSelect {
+  width: 98%;
+  margin-left: 22px;
+  padding: 20px;
+}

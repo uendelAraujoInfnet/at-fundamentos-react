@@ -1,0 +1,20 @@
+.hotelForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.buttonsPage{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.addHotelButton,
+.backButton,
+.cancelButton{
+  width: 30%;
+  font-weight: bold;
+}
