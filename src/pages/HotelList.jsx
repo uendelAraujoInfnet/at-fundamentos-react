@@ -87,8 +87,8 @@ const HotelList = () => {
     <div>
       <Box sx={{ mt: 4 }}>
         <div className={styles.buttonAddNewHotel}>
-        {/* Componente de busca */}
-        <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm}/>
+          {/* Componente de busca */}
+          <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
           <Button
             variant="contained"
@@ -100,10 +100,7 @@ const HotelList = () => {
           >
             Adicionar Novo Hotel
           </Button>
-
-          
         </div>
-        
 
         {/* Exibição dos hotéis filtrados apenas se houver busca */}
         {searchTerm && (
@@ -153,11 +150,8 @@ const HotelList = () => {
                 Nenhum hotel encontrado.
               </Typography>
             )}
-            
           </Grid>
         )}
-
-        
       </Box>
 
       <Grid container spacing={2}>
@@ -277,13 +271,17 @@ const HotelList = () => {
                 Remover Hotel
               </Button>
             </CardActions>
-            
-              <Button onClick={() => toggleFavorite(hotel.id)} color="secondary" variant="contained" fullWidth>
-                {favorites.includes(hotel.id)
-                  ? "Remover dos Favoritos"
-                  : "Adicionar aos Favoritos"}
-              </Button>
-            
+
+            <Button
+              onClick={() => toggleFavorite(hotel.id)}
+              color="secondary"
+              variant="contained"
+              fullWidth
+            >
+              {favorites.includes(hotel.id)
+                ? "Remover dos Favoritos"
+                : "Adicionar aos Favoritos"}
+            </Button>
           </Card>
         ))}
       </div>
