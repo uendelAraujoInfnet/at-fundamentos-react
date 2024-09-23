@@ -12,10 +12,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<HotelList />} />
-          <Route path="/add-new-hotel" element={<AddHotel />} />
-          <Route path="/hotel/:id" element={<HotelDetails />} />
-          <Route path="/edit-hotel/:id" element={<EditHotel />} />
+          <Route path="/at-fundamentos-react/" element={<HotelList />} />
+          <Route path="/at-fundamentos-react/add-new-hotel" element={<AddHotel />} />
+          <Route path="/at-fundamentos-react/hotel/:id" element={<HotelDetails />} />
+          <Route path="/at-fundamentos-react/edit-hotel/:id" element={<EditHotel />} />
         </Routes>
       </Router>
     </>
