@@ -53,7 +53,7 @@ function EditHotel() {
       const hotels = JSON.parse(localStorage.getItem("hotels")) || [];
       hotels[id] = hotel;
       localStorage.setItem("hotels", JSON.stringify(hotels));
-      navigate("/");
+      navigate("/at-fundamentos-react/");
     }
   };
 
@@ -158,7 +158,7 @@ function EditHotel() {
           <Button
             fullWidth
             variant="contained"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/at-fundamentos-react/")}
             sx={{ py: 1.5, mt: 2 }}
             color="error"
           >

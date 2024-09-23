@@ -128,10 +128,10 @@ const HotelList = () => {
                     </CardContent>
                     <CardActions>
                       <Button size="small" color="success" variant="contained">
-                        <Link to={`/hotel/${hotel.id}`}>Ver Detalhes</Link>
+                        <Link to={`/at-fundamentos-react/hotel/${hotel.id}`}>Ver Detalhes</Link>
                       </Button>
                       <Button size="small" color="primary" variant="contained">
-                        <Link to={`/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
+                        <Link to={`/at-fundamentos-react/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
                       </Button>
                       <Button
                         size="small"
@@ -204,10 +204,10 @@ const HotelList = () => {
                     </CardContent>
                     <CardActions>
                       <Button size="small" color="success" variant="contained">
-                        <Link to={`/hotel/${hotel.id}`}>Ver Detalhes</Link>
+                        <Link to={`/at-fundamentos-react/hotel/${hotel.id}`}>Ver Detalhes</Link>
                       </Button>
                       <Button size="small" color="primary" variant="contained">
-                        <Link to={`/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
+                        <Link to={`/at-fundamentos-react/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
                       </Button>
                       <Button
                         size="small"
@@ -257,10 +257,10 @@ const HotelList = () => {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="success" variant="contained">
-                <Link to={`/hotel/${hotel.id}`}>Ver Detalhes</Link>
+                <Link to={`/at-fundamentos-react/hotel/${hotel.id}`}>Ver Detalhes</Link>
               </Button>
               <Button size="small" color="primary" variant="contained">
-                <Link to={`/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
+                <Link to={`/at-fundamentos-react/edit-hotel/${hotel.id}`}>Editar Hotel</Link>
               </Button>
               <Button
                 size="small"

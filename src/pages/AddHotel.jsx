@@ -189,7 +189,7 @@ const AddHotel = () => {
           <Button
             className={styles.backButton}
             variant="contained"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/at-fundamentos-react/")}
             sx={{ py: 1.5, mt: 2 }}
             color="primary"
           >
@@ -199,7 +199,7 @@ const AddHotel = () => {
           <Button
             className={styles.cancelButton}
             variant="contained"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/at-fundamentos-react/")}
             sx={{ py: 1.5, mt: 2 }}
             color="error"
           >
