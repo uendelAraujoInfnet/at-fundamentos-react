@@ -167,7 +167,7 @@ const HotelList = () => {
           value={sortOption}
           onChange={(e) => setSortOption(e.target.value)}
         >
-          <option value="" selected>
+          <option value="">
             Selecione a Opção Desejada
           </option>
           <option value="price">Ordenar por Preço</option>
