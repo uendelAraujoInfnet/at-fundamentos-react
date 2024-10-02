@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-//import hotelData from "../data/hotelData";
+import hotelData from "../data/hotelData";
 import SearchBar from "../components/SearchBar";
 import styles from "../styles/HotelList.module.css";
 import {
